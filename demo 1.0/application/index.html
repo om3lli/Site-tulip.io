@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Нарушениям.Нет</title>
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/style/style.css">
+</head>
+<body>
+    <main class="text-success-emphasis">
+        <header class="bg-success border-bottom border-success-emphasis">
+            <div class="container-fluid d-flex align-items-center p-0">
+                <nav class="navbar navbar-expand-lg w-100 p-3 navbar-dark">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="/">Нарушениям.Нет</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/auth/">Вход</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/register/">Регистрация</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/profile/">Личный кабинет</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/admin/">Админ Панель</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/">Выйти</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <section class="page">
+            <div class="container p-3">
+                <h1 class="text-center mb-3 text-success-emphasis display-1">Подача заявления</h1>
+                <form action="/profile/" method="post" class="m-auto">
+                    <div class="mb-3">
+                        <label for="number" class="form-label fs-5">Государственный регистрационный номер автомобиля</label>
+                        <input type="text" class="form-control shadow-sm  p-3 rounded-pill" id="number" name="number">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label fs-5">Описание нарушения</label>
+                        <textarea class="form-control shadow-sm  p-3 rounded-5" id="message" rows="5" name="message"></textarea>
+                    </div>
+                    <input type="submit" class="btn btn-success mb-3 mt-3 w-100 shadow-sm  p-3 fs-2 rounded-pill fw-bold" value="Подать заявление">
+                </form>
+            </div>
+        </section>
+        <footer class="sticky-bottom bg-dark text-light">
+            <div class="container-fluid p-3 pt-3">
+                <p>@Нарушениям.Нет<br>2023-2024</p>
+            </div>
+        </footer>
+    </main>
+    <script src="/assets/bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+</html>

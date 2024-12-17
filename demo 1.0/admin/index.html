@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тюльпан</title>
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/style/style.css">
+</head>
+<body>
+    <main class="text-success-emphasis">
+        <header class="header-bg-custom border-bottom border-success-emphasis">
+            <style>
+                .header-bg-custom {
+                    background-color: #553d70;
+                }
+            </style>
+            <div class="container-fluid d-flex align-items-center p-0">
+                <nav class="navbar navbar-expand-lg w-100 p-3 navbar-dark">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="/">Тюльпан</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/auth/">Вход</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/register/">Регистрация</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/profile/">Личный кабинет</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/admin/">Админ Панель</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/">Выйти</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <section class="page">
+            <div class="container p-3">
+                <h1 class="text-center mb-3 text-white display-1">Панель администратора</h1>
+                <div class="cards">
+                    <div class="card w-100 mb-3 mt-3">
+                        <div class="card-body">
+                            <h5 class="card-title">Заявка</h5>
+                            <p class="mb-1"><span class="fw-semibold">ФИО:</span> ФИО</p>
+                            <p class="mb-1"><span class="fw-semibold">Телефон:</span> Новый</p>
+                            <p class="mb-1"><span class="fw-semibold">Дата и время бронирования:</span> Новый</p>
+                            <p class="mb-1"><span class="fw-semibold">Выбранный мастер:</span> Новый</p>
+                            <p class="mb-1"><span class="fw-semibold">Статус:</span> Новый</p>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla error, magni quidem placeat iusto sapiente suscipit, assumenda excepturi nisi soluta ipsa quisquam, veniam fugit recusandae optio itaque sed nemo ipsam!</p>
+                            <div class="d-flex align-items-center justify-content-between cards_btn">
+                                <a href="#" class="card-link btn btn-success mb-3 mt-3 shadow-sm  p-3 rounded-pill fw-bold bg-dark">Подтвердить</a>
+                                <a href="#" class="card-link btn btn-success-outline border border-success mb-3 mt-3 shadow-sm  p-3 rounded-pill fw-bold m-0 ">Отменить</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card w-100 mb-3 mt-3 text-success">
+                        <div class="card-body">
+                            <h5 class="card-title">Заявка</h5>
+                            <p class="mb-1"><span class="fw-semibold">ФИО:</span> ФИО</p>
+                            <p class="mb-1"><span class="fw-semibold">Телефон:</span> Новый</p>
+                            <p class="mb-1"><span class="fw-semibold">Дата и время бронирования:</span> Новый</p>
+                            <p class="mb-1"><span class="fw-semibold">Выбранный мастер:</span> Новый</p>
+                            <p class="mb-1"><span class="fw-semibold">Статус:</span> Подтвержден</p>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla error, magni quidem placeat iusto sapiente suscipit, assumenda excepturi nisi soluta ipsa quisquam, veniam fugit recusandae optio itaque sed nemo ipsam!</p>
+                        </div>
+                    </div>
+                    <div class="card w-100 mb-3 mt-3 text-body-tertiary">
+                        <div class="card-body">
+                            <h5 class="card-title">Заявка</h5>
+                            <p class="mb-1"><span class="fw-semibold">ФИО:</span> ФИО</p>
+                            <p class="mb-1"><span class="fw-semibold">Телефон:</span> Новый</p>
+                            <p class="mb-1"><span class="fw-semibold">Дата и время бронирования:</span> Новый</p>
+                            <p class="mb-1"><span class="fw-semibold">Выбранный мастер:</span> Новый</p>
+                            <p class="mb-1"><span class="fw-semibold">Статус:</span> Отменен</p>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla error, magni quidem placeat iusto sapiente suscipit, assumenda excepturi nisi soluta ipsa quisquam, veniam fugit recusandae optio itaque sed nemo ipsam!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="sticky-bottom footer-bg-custom text-light">
+            <style>
+                .footer-bg-custom {
+                    background-color: #553d70;
+                }
+            </style>
+            <div class="container-fluid p-3 pt-3">
+                <p>@Тюльпан<br>2023-2024</p>
+            </div>
+        </footer>
+    </main>
+    <script src="/assets/bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+</html>
